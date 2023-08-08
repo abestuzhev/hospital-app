@@ -1,0 +1,44 @@
+@import "reset";
+@import "variables/variables";
+@import "themes/light";
+@import "themes/dark";
+
+.app {
+  font: var(--font-m);
+  padding: 10px;
+  background: var(--bg-1);
+  color: var(--font-1);
+  min-height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-2);
+  margin-bottom: 20px;
+  padding: 14px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  a {
+    padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+    color: var(--font-1);
+  }
+}
+
+button {
+  display: block;
+  border: none;
+  outline: none;
+  padding: 4px 12px;
+  background: var(--primary-1);
+  color: var(--primary-font-1);
+  cursor: pointer;
+  border-radius: 6px;
+}
