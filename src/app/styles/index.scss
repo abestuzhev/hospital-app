@@ -5,6 +5,7 @@
 @import "./themes/dark";
 
 .app {
+    font-family: sans-serif;
     font: var(--font-m);
     background: var(--bg-1);
     color: var(--font-1);
@@ -13,6 +14,7 @@
     &-wrapper {
         display: flex;
         height: 100%;
+        position: relative;
     }
 
     &-content {
