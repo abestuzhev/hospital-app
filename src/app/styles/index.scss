@@ -1,4 +1,3 @@
-
 @import "reset";
 @import "./variables/fonts";
 @import "./variables/variables";
@@ -6,24 +5,20 @@
 @import "./themes/dark";
 
 .app {
-  font: var(--font-m);
-  background: var(--bg-1);
-  color: var(--font-1);
-  min-height: 100vh;
+    font: var(--font-m);
+    background: var(--bg-1);
+    color: var(--font-1);
+    min-height: 100vh;
 
-  &-wrapper {
-    display: flex;
-    height: 100%;
-  }
+    &-wrapper {
+        display: flex;
+        height: 100%;
+    }
 
-  &-content {
-    display: flex;
-    height: 100%;
-    padding: 10px;
-    flex-grow: 1;
-  }
-}
-
-.header {
-
+    &-content {
+        display: flex;
+        height: 100%;
+        padding: 10px;
+        flex-grow: 1;
+    }
 }
