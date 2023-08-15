@@ -1,8 +1,9 @@
 module.exports = {
     root: true,
     env: {
-        "browser": true,
-        "es2021": true
+        browser: true,
+        es2021: true,
+        jest: true
     },
     extends: [
         "standard-with-typescript",
@@ -11,14 +12,14 @@ module.exports = {
     ],
     overrides: [
         {
-            "env": {
+            env: {
                 "node": true
             },
-            "files": [
+            files: [
                 ".eslintrc.{js,cjs}"
             ],
-            "parserOptions": {
-                "sourceType": "script"
+            parserOptions: {
+                sourceType: "script",
             }
         }
     ],
@@ -26,7 +27,7 @@ module.exports = {
     parserOptions: {
         ecmaVersion: "latest",
         sourceType: "module",
-        project: ["./tsconfig.json"]
+        project: ['./tsconfig.json']
     },
     plugins: [
         "react",
