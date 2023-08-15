@@ -1,0 +1,23 @@
+.ThemeSwitcher {
+
+
+  svg {
+    display: block;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.light {
+
+  svg {
+    fill: var(--primary-1)
+  }
+}
+
+.dark {
+  svg {
+    fill: var(--secondary-1)
+  }
+}

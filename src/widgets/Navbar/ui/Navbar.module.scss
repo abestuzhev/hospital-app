@@ -1,0 +1,33 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-4);
+  //margin-bottom: 20px;
+  padding: 14px;
+}
+
+.Menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  a {
+    padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+    //color: var(--font-1);
+  }
+}
+
+.Operation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  div,
+  button,
+  a {
+    margin-left: 12px;
+  }
+}

@@ -11,7 +11,10 @@
     "allowSyntheticDefaultImports": true,
     //modules exports
     "esModuleInterop": true,
-//    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    }
   },
   "ts-node": {
     "compilerOptions": {
