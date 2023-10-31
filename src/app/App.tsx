@@ -8,6 +8,7 @@ import { useEffect } from 'react'
 
 const App = () => {
     const { theme } = useTheme()
+    console.log('theme', theme)
     return (
         <div className={classNames('app', {}, [theme])}>
             <Navbar />
